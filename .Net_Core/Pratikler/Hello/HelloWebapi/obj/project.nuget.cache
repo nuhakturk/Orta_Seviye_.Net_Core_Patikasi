@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "OS+gRiIg4ueAfL26wCM41zYTsplrlA5UzKtQjfFsHF5F7q5x0qlWbUqoWbeftPZgWu8rvieSYzNULkJFeq3Wvg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\nuh_9\\Documents\\Sites\\Orta_Seviye_.Net_Core_Patikasi\\.Net_Core\\Pratikler\\Hello\\HelloWebapi\\HelloWebapi.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Swashbuckle.AspNetCore paketi bulunamıyor. Kaynaklarda bu kimliğe sahip paket yok: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

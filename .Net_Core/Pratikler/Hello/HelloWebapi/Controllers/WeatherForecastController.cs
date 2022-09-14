@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 namespace HelloWebapi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("[controller]s")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
@@ -36,23 +36,8 @@ namespace HelloWebapi.Controllers
             .ToArray();
         }
 
-        [HttpGet]
-        //api/WeatherForecast?id=3
-        public IEnumerable<WeatherForecast> GetById([FromQuery] string id)
-        {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
-            })
-            .ToArray();
-        }
-
         [HttpGet("{id}")]
-        //api/WeatherForecast/3
-        public IEnumerable<WeatherForecast> GetForecast([FromQuery] string id)
+        public ActionResult<WeatherForecast> GetById(string id)
         {
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -61,7 +46,7 @@ namespace HelloWebapi.Controllers
                 TemperatureC = rng.Next(-20, 55),
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
-            .ToArray();
+            .ToArray()[0];
         }
     }
 }

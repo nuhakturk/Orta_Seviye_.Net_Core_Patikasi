@@ -1,18 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "OS+gRiIg4ueAfL26wCM41zYTsplrlA5UzKtQjfFsHF5F7q5x0qlWbUqoWbeftPZgWu8rvieSYzNULkJFeq3Wvg==",
-  "success": false,
+  "dgSpecHash": "BVa0xnMcrtgBmI8mD3JtGv7o1w8sNztjskIhzsnVKWhKDz/MpFR7JGSGCiel+e/02Z7T4YGgOVA7c2iZ6SgTtQ==",
+  "success": true,
   "projectFilePath": "C:\\Users\\nuh_9\\Documents\\Sites\\Orta_Seviye_.Net_Core_Patikasi\\.Net_Core\\Pratikler\\Hello\\HelloWebapi\\HelloWebapi.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Swashbuckle.AspNetCore paketi bulunamıyor. Kaynaklarda bu kimliğe sahip paket yok: Microsoft Visual Studio Offline Packages",
-      "libraryId": "Swashbuckle.AspNetCore",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "expectedPackageFiles": [
+    "C:\\Users\\nuh_9\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\nuh_9\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\nuh_9\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\nuh_9\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\nuh_9\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\nuh_9\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
 }

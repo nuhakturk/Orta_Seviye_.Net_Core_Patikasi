@@ -8,6 +8,7 @@ namespace WebApi.BookOperations.GetBooks
 {
     public class GetBooksQuery
     {
+        
         private readonly BooksStoreDbContext _dbContext;
         public GetBooksQuery(BooksStoreDbContext dbContext)
         {
